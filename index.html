@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<!--
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
--->
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,26 +17,28 @@
                 <input id="a_size" type="range" min=20 max=150 step=1 value=80>
                 <p>Speed of the algorithm:</p>
                 <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
-                <button id="a_generate">Generate New Array!</button>
+                
             </div>
 
             <div class="header_right">
                 <p class="nav-heading">Sorting visualizer</p>
 
                 <div class="algos">
-                    <button >Bubble</button>
-                    <button >Selection</button>
-                    <button >Insertion</button>
-                    <button >Merge</button>
-                    <button >Quick</button>
-                    <button style="margin-right: 0px;">Heap</button>
+                    <ul class="ul">
+                        <li><button>Bubble</button></li>
+                        <li><button>Selection</button></li>
+                        <li><button>Insertion</button></li>
+                        <li><button >Merge</button></li>
+                        <li><button >Quick</button></li>
+                        <li><button style="margin-right: 0px;">Heap</button>
+                    </ul>
                 </div>
             </div>
 
         </nav>
     </header>
 
-    <section>
+    <section class="sectionel">
 
         <div id="Info_Cont1">
 
@@ -88,6 +84,8 @@
 
         </div>
 
+        <button id="a_generate">Generate New Array!</button>
+
     </section>
 
     <footer>
@@ -104,11 +102,4 @@
     <script src="./scripts/quick_sort.js"></script>
     <script src="./scripts/heap_sort.js"></script>
 </body>
-
-<!--
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
--->
-
 </html>

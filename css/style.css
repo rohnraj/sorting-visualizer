@@ -1,8 +1,4 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
+
 * {
   margin: 0px;
   padding: 0px;
@@ -11,9 +7,13 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+body{
+  background-color: rgb(13,17,23);
+  color:white;
+}
 
 nav {
-  background-color: #3b3a3a;
+  background-color: rgb(1,4,9);
   color: white;
   display: -ms-grid;
   display: grid;
@@ -74,7 +74,7 @@ nav .header_right .algos {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (16.66667%)[6];
-      grid-template-columns: repeat(6, 16.66667%);
+  grid-template-columns: repeat(6, 16.66667%);
   place-content: center;
   padding: 2% 0%;
 }
@@ -170,6 +170,25 @@ section #Info_Cont2 h3 {
   display: none;
 }
 
+#a_generate{
+  
+  background-color: aquamarine;
+  width: 200px;
+  /* border-radius: 15%; */
+  position: absolute;
+  left: 650px;
+  top: 650px;
+} 
+.ul{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+.ul li{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /*
 @media (max-width: 480px)//Mobiles
 {
@@ -186,9 +205,5 @@ section #Info_Cont2 h3 {
 
 }
 */
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
+
 /*# sourceMappingURL=style.css.map */
